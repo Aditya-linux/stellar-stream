@@ -1,82 +1,94 @@
-# StellarStream
+# 🚀 StellarStream
 
-A high-quality Stellar dApp on Testnet to send pseudo-payments using Freighter Wallet. Built with Next.js (App Router), Tailwind CSS, and Stellar SDK.
+> **A seamless, high-performance Stellar dApp for secure payments on the Testnet.**
+> *Built with ❤️ for the Stellar Developer Challenge (Level 1: White Belt)*
 
-## Features
-- **Wallet Connection**: Connect via Freighter (Testnet).
-- **Balance Display**: Real-time XLM balance fetching.
-- **Send Payments**: Send XLM to any public key on Testnet.
-- **Transaction History**: Link to StellarExpert for verification.
-- **Modern UI**: Dark-themed, responsive Fintech aesthetic.
+## � Introduction
 
-## Tech Stack
-- **Framework**: Next.js 16 (App Router) + TypeScript
-- **Styling**: Tailwind CSS v4
-- **Blockchain**: @stellar/stellar-sdk, @stellar/freighter-api
-- **Icons**: Lucide React
+Hi there! I built **StellarStream** to demonstrate just how fast, smooth, and powerful building on Stellar can be.
 
-## Project Structure
-```
-stellar-stream/
-├── src/
-│   ├── app/
-│   │   ├── globals.css       # Global styles (Dark theme)
-│   │   ├── layout.tsx        # Root layout
-│   │   └── page.tsx          # Main Dashboard
-│   ├── components/
-│   │   └── WalletConnect.tsx # Wallet Connection Logic
-│   └── utils/
-│       └── stellar.ts        # Stellar SDK Helpers
-├── public/
-├── package.json
-└── README.md
-```
+My goal was to create more than just a functional wallet interface—I wanted to build an experience that feels **premium, modern, and fun to use**. By combining a futuristic "Glassmorphism" aesthetic with the speed of the Stellar network, StellarStream turns simple Testnet transactions into a visual delight.
 
-## Getting Started
+Whether you're checking your balance or sending your first XLM, I hope you enjoy using it as much as I enjoyed building it!
 
-### Prerequisites
-- Node.js 18+ installed.
-- Freighter Wallet Extension installed in browser.
-- Freighter set to **TESTNET** in Settings > Network.
+---
 
-### Installation
+## 🌐 Live Demo
 
-1. **Clone & Install**
-   ```bash
-   git clone <your-repo-url>
-   cd stellar-stream
-   npm install
-   ```
+🚀 **[Try the Live App Here](https://stellar-stream-smoky.vercel.app/)**
 
-2. **Run Locally**
-   ```bash
-   npm run dev
-   ```
-   Open `http://localhost:3000` in your browser.
+*Make sure you have [Freighter](https://www.freighter.app/) installed and connected to Testnet!*
 
-## Deployment Guide
+---
 
-### GitHub
-1. Initialize Git in the `stellar-stream` folder:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   ```
-2. Create a new repository on GitHub.
-3. Push to GitHub:
-   ```bash
-   git remote add origin https://github.com/<your-username>/stellar-stream.git
-   git push -u origin main
-   ```
+## ✅ Challenge Validation
 
-### Vercel Deployment
-1. Go to [Vercel](https://vercel.com).
-2. Click **Add New > Project**.
-3. Import your `stellar-stream` repository.
-4. Framework Preset: **Next.js** (Auto-detected).
-5. Click **Deploy**.
-6. Your dApp will be live in minutes!
+I've carefully implemented all the requirements for **Mission 1**:
 
-## Design Notes
-The app uses a "Slate" dark theme (`bg-slate-900`, `text-slate-50`) with Sky Blue accents (`text-sky-400`, `bg-sky-500`) to evoke a professional financial feel. Glassmorphism effects are applied using `backdrop-blur` and semi-transparent backgrounds.
+| Requirement | Status | how It Works |
+| :--- | :---: | :--- |
+| **Connect Wallet** | ✅ | I used the `@stellar/freighter-api` to securely detect and connect to your wallet. |
+| **View Balance** | ✅ | The app fetches your live Testnet XLM balance instantly using `Horizon.Server`. |
+| **Send Payment** | ✅ | You can sign and send actual payment transactions to any public key. |
+| **Show PubKey** | ✅ | Your compressed public key is displayed proudly in the header. |
+| **Error Handling** | ✅ | I've added friendly error messages for things like "User Rejected" or network issues. |
+
+---
+
+## 🛠 Tech Stack
+
+I chose a modern stack to ensure performance and developer experience:
+
+*   **Framework:** [Next.js 16 (App Router)](https://nextjs.org/) - *For that snappy SPA feel.*
+*   **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) - *With custom animations & deep-space gradients.*
+*   **Blockchain:** [@stellar/stellar-sdk](https://github.com/stellar/js-stellar-sdk) & Freighter API.
+*   **Typography:** Google Fonts (Outfit headlines, Inter body).
+
+---
+
+## 📸 Screenshots
+
+| **1. Wallet Connection** | **2. Balance Display** |
+| :---: | :---: |
+| ![Wallet Connect](https://placehold.co/600x400/1e293b/38bdf8?text=Wallet+Connection+UI) | ![Balance](https://placehold.co/600x400/1e293b/38bdf8?text=Balance+Display) |
+| *Clean, one-click connection.* | *Your funds, visible instantly.* |
+
+| **3. Successful Transaction** | **4. Transaction Result** |
+| :---: | :---: |
+| ![Transaction Form](https://placehold.co/600x400/1e293b/38bdf8?text=Payment+Form) | ![Success State](https://placehold.co/600x400/1e293b/38bdf8?text=Success+Message) |
+| *Easy-to-use payment form.* | *Verification link to StellarExpert.* |
+
+---
+
+## � Running Locally
+
+Want to peek under the hood? Here is how to run it on your machine:
+
+1.  **Clone the repo:**
+    ```bash
+    git clone https://github.com/your-username/stellar-stream.git
+    cd stellar-stream
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Fire it up:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Explore:**
+    Open `http://localhost:3000` and start streaming payments!
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+*Thanks for checking out my submission!* 🌟
