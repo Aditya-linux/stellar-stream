@@ -50,16 +50,13 @@ I chose a modern stack to ensure performance and developer experience:
 
 | **1. Wallet Connection** | **2. Balance Display** |
 | :---: | :---: |
-| ![Wallet Connect](https://placehold.co/600x400/1e293b/38bdf8?text=Wallet+Connection+UI) | ![Balance](https://placehold.co/600x400/1e293b/38bdf8?text=Balance+Display) |
+| ![Wallet Connection](https://github.com/user-attachments/assets/348578e7-8d92-427f-863b-d88856c064dc) | ![Balance Display](https://github.com/user-attachments/assets/9999867a-8f92-4e97-b78c-2f0520f7d12d) |
 | *Clean, one-click connection.* | *Your funds, visible instantly.* |
 
 | **3. Successful Transaction** | **4. Transaction Result** |
 | :---: | :---: |
-| ![Transaction Form](https://placehold.co/600x400/1e293b/38bdf8?text=Payment+Form) | ![Success State](https://placehold.co/600x400/1e293b/38bdf8?text=Success+Message) |
+| ![Transaction Form](https://github.com/user-attachments/assets/6fdc06bf-c595-4b51-bd14-dd446fbebe54) | ![Success State](https://github.com/user-attachments/assets/1bb1d184-80fa-43c1-b682-4bb3c0249d0b) |
 | *Easy-to-use payment form.* | *Verification link to StellarExpert.* |
-
----
-
 ## � Running Locally
 
 Want to peek under the hood? Here is how to run it on your machine:
