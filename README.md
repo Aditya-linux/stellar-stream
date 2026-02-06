@@ -15,7 +15,7 @@ Whether you're checking your balance or sending your first XLM, I hope you enjoy
 
 ## 🌐 Live Demo
 
-🚀 **[Try the Live App Here](https://stellar-stream-smoky.vercel.app/)**
+🚀 **[Try the Live App Here](https://stellar-stream-seven.vercel.app/)**
 
 *Make sure you have [Freighter](https://www.freighter.app/) installed and connected to Testnet!*
 
